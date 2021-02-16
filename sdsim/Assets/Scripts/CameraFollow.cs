@@ -11,10 +11,9 @@ public class CameraFollow : MonoBehaviour
     public float approachPosRate = 0.1f;
     public float approachRotRate = 0.03f;
 
+    public int followMode = 2; 
     private float height = 15.0f;   // カメラの高さ
     private float distance = 10.0f; // どれくらい後ろを追随するか
-    private int followMode = 2; 
-
 
     // Update is called once per frame
     void FixedUpdate()
